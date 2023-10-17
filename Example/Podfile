@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CircleProgrammableWalletSDK_Example' do
+  pod 'CircleProgrammableWalletSDK', :path => '../'
+
+  target 'CircleProgrammableWalletSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
