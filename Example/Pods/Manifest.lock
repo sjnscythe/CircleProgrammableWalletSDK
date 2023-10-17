@@ -1,0 +1,16 @@
+PODS:
+  - CircleProgrammableWalletSDK (0.1.0)
+
+DEPENDENCIES:
+  - CircleProgrammableWalletSDK (from `../`)
+
+EXTERNAL SOURCES:
+  CircleProgrammableWalletSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CircleProgrammableWalletSDK: 186645c53e71dad408fec8a173e5ab78052bf3b9
+
+PODFILE CHECKSUM: 76cf0c6877231642a4ce24977075d4dd40e91473
+
+COCOAPODS: 1.13.0

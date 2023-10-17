@@ -1,0 +1,6 @@
+framework module CircleProgrammableWalletSDK {
+  umbrella header "CircleProgrammableWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

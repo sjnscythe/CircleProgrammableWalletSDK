@@ -1,0 +1,6 @@
+framework module Pods_CircleProgrammableWalletSDK_Example {
+  umbrella header "Pods-CircleProgrammableWalletSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

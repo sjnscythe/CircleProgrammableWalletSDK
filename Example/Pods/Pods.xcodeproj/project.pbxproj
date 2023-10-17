@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ADDF42599338D514E96ECC8BEEC2988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		446A9B7C86B3B6D17FDCA5795D443956 /* CircleProgrammableWalletSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD85B68803977BF03BF176AB2B91EA0 /* CircleProgrammableWalletSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EAA27B9C396F4CF791648EFFAA88B92 /* Pods-CircleProgrammableWalletSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F64C6D1E4B4166EDDEF9798948B34202 /* Pods-CircleProgrammableWalletSDK_Example-dummy.m */; };
+		65C2AF72D7239BBA184FAD4BF936EFD1 /* CircleProgrammableWalletSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E748A312B42D7DA6B2922BCE04181B3 /* CircleProgrammableWalletSDK-dummy.m */; };
+		AA959D4F5CB37B7698BF55A64237DF48 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C786C311C1616CCC5EFCA7CA56187EF /* ReplaceMe.swift */; };
+		B67BEC27C6D9914F0C67DB9FC80A7DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFC6B6A3FF8B5BD8E3E853C2DB65D6A4 /* Pods-CircleProgrammableWalletSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F958BB8317E33FDFC263F8B91036B241 /* Pods-CircleProgrammableWalletSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AEF79B7E5787662208759B4FE813D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D7CE4E6C933EF2B2316AB0C258092261 /* Pods-CircleProgrammableWalletSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C8E0FE53673A76085D02142F59E38D /* Pods-CircleProgrammableWalletSDK_Tests-dummy.m */; };
+		E3FFD6CC997F40BA13E958A0CB8B266B /* Pods-CircleProgrammableWalletSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F638CC6893B419FDE777161D28DC4A6 /* Pods-CircleProgrammableWalletSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8513C8E88BADE26B99089C6F1BA552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD06BE082F9B592CE52CC5F59BDEAA9C;
+			remoteInfo = "Pods-CircleProgrammableWalletSDK_Example";
+		};
+		C16B12EC0EBC9F667D644C254066C85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B53353274A3ACA6C67EFAE2DEAD1903;
+			remoteInfo = CircleProgrammableWalletSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068B4525969F254399B776FE09473D70 /* Pods-CircleProgrammableWalletSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircleProgrammableWalletSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		0C54384B28B5CC30A734605F71B5AF96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F638CC6893B419FDE777161D28DC4A6 /* Pods-CircleProgrammableWalletSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleProgrammableWalletSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		2E748A312B42D7DA6B2922BCE04181B3 /* CircleProgrammableWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgrammableWalletSDK-dummy.m"; sourceTree = "<group>"; };
+		3860B090B3FBD74A7D7D67D107556D9A /* Pods-CircleProgrammableWalletSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CircleProgrammableWalletSDK_Tests"; path = Pods_CircleProgrammableWalletSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A183093B7C23BF2F686DBCDB2D807DD /* Pods-CircleProgrammableWalletSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleProgrammableWalletSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A6E298FF7B90A73815538AEEA65A1C4 /* Pods-CircleProgrammableWalletSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CircleProgrammableWalletSDK_Example"; path = Pods_CircleProgrammableWalletSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C786C311C1616CCC5EFCA7CA56187EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CircleProgrammableWalletSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		503BF9E61E8D358563C1C849FC3FDD44 /* Pods-CircleProgrammableWalletSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleProgrammableWalletSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		571EF0C72248B18105F388245C5FB341 /* Pods-CircleProgrammableWalletSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleProgrammableWalletSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		607305D73CC7780A198F2FB49D461551 /* CircleProgrammableWalletSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgrammableWalletSDK.modulemap; sourceTree = "<group>"; };
+		629790C6756DCAE4BC10C14E3363BA56 /* Pods-CircleProgrammableWalletSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleProgrammableWalletSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		65BCB12D1C0717DAA204BB6BBD80211E /* CircleProgrammableWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleProgrammableWalletSDK-Info.plist"; sourceTree = "<group>"; };
+		684EC34FA08558EC79A9F9826EAA259F /* Pods-CircleProgrammableWalletSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleProgrammableWalletSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68A5B567442219AFEA9093452B2317B5 /* Pods-CircleProgrammableWalletSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleProgrammableWalletSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D9A48FCB429C7DE1546E8FB77527262 /* Pods-CircleProgrammableWalletSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleProgrammableWalletSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		975D998943FC85693AA19A4B691E8ACA /* Pods-CircleProgrammableWalletSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleProgrammableWalletSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		975DC3DE08E0B03096F6556BCA1C1A21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97C8E0FE53673A76085D02142F59E38D /* Pods-CircleProgrammableWalletSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleProgrammableWalletSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		9A9C26D618CD49810C8A5CC5D877B5A4 /* CircleProgrammableWalletSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgrammableWalletSDK; path = CircleProgrammableWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A69EC995DC86FDB55B629FE95DA8480F /* Pods-CircleProgrammableWalletSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleProgrammableWalletSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ABD53B9A47497BEC8FDA1E37CA2A300A /* CircleProgrammableWalletSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgrammableWalletSDK.release.xcconfig; sourceTree = "<group>"; };
+		B26EB8D75161CF6043E830DC663A67F3 /* Pods-CircleProgrammableWalletSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleProgrammableWalletSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B5EFC608E88D4CF8A7659BE898669F99 /* CircleProgrammableWalletSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgrammableWalletSDK-prefix.pch"; sourceTree = "<group>"; };
+		BC87F9260CC070B97660840F3C3F4A5F /* CircleProgrammableWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CircleProgrammableWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCE47A286A91E6A5224EE14C866E7BA9 /* Pods-CircleProgrammableWalletSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircleProgrammableWalletSDK_Example.modulemap"; sourceTree = "<group>"; };
+		CCDA2DB029A03E16BFC8F7B36A9C0399 /* Pods-CircleProgrammableWalletSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleProgrammableWalletSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		F4CCEAE9226852983F06DA6ABD96898B /* CircleProgrammableWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgrammableWalletSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F64C6D1E4B4166EDDEF9798948B34202 /* Pods-CircleProgrammableWalletSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleProgrammableWalletSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F958BB8317E33FDFC263F8B91036B241 /* Pods-CircleProgrammableWalletSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleProgrammableWalletSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FAD85B68803977BF03BF176AB2B91EA0 /* CircleProgrammableWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgrammableWalletSDK-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1901B0312B12D26D8BCE638D027D5FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADDF42599338D514E96ECC8BEEC2988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834B19BCA07327EF7116866045A6C399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67BEC27C6D9914F0C67DB9FC80A7DB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F646DDDB2A3DCB65E182FD788B64366C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AEF79B7E5787662208759B4FE813D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD34718046AAFEE3B2A51AD060AD5C4 /* CircleProgrammableWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4C786C311C1616CCC5EFCA7CA56187EF /* ReplaceMe.swift */,
+				EEFFAD0254F766ECB8F3AA0504AAEAA8 /* Pod */,
+				7F360AED68004D0CC718E899D493AC2F /* Support Files */,
+			);
+			name = CircleProgrammableWalletSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72DA1B23D9D2FBD08D3DAFF172CE0E5C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AD34718046AAFEE3B2A51AD060AD5C4 /* CircleProgrammableWalletSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7F360AED68004D0CC718E899D493AC2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				607305D73CC7780A198F2FB49D461551 /* CircleProgrammableWalletSDK.modulemap */,
+				2E748A312B42D7DA6B2922BCE04181B3 /* CircleProgrammableWalletSDK-dummy.m */,
+				65BCB12D1C0717DAA204BB6BBD80211E /* CircleProgrammableWalletSDK-Info.plist */,
+				B5EFC608E88D4CF8A7659BE898669F99 /* CircleProgrammableWalletSDK-prefix.pch */,
+				FAD85B68803977BF03BF176AB2B91EA0 /* CircleProgrammableWalletSDK-umbrella.h */,
+				F4CCEAE9226852983F06DA6ABD96898B /* CircleProgrammableWalletSDK.debug.xcconfig */,
+				ABD53B9A47497BEC8FDA1E37CA2A300A /* CircleProgrammableWalletSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CircleProgrammableWalletSDK";
+			sourceTree = "<group>";
+		};
+		8EBB63CECF28F0921C5459C74094FB2A /* Pods-CircleProgrammableWalletSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCE47A286A91E6A5224EE14C866E7BA9 /* Pods-CircleProgrammableWalletSDK_Example.modulemap */,
+				975D998943FC85693AA19A4B691E8ACA /* Pods-CircleProgrammableWalletSDK_Example-acknowledgements.markdown */,
+				4A183093B7C23BF2F686DBCDB2D807DD /* Pods-CircleProgrammableWalletSDK_Example-acknowledgements.plist */,
+				F64C6D1E4B4166EDDEF9798948B34202 /* Pods-CircleProgrammableWalletSDK_Example-dummy.m */,
+				B26EB8D75161CF6043E830DC663A67F3 /* Pods-CircleProgrammableWalletSDK_Example-frameworks.sh */,
+				CCDA2DB029A03E16BFC8F7B36A9C0399 /* Pods-CircleProgrammableWalletSDK_Example-Info.plist */,
+				0F638CC6893B419FDE777161D28DC4A6 /* Pods-CircleProgrammableWalletSDK_Example-umbrella.h */,
+				629790C6756DCAE4BC10C14E3363BA56 /* Pods-CircleProgrammableWalletSDK_Example.debug.xcconfig */,
+				503BF9E61E8D358563C1C849FC3FDD44 /* Pods-CircleProgrammableWalletSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-CircleProgrammableWalletSDK_Example";
+			path = "Target Support Files/Pods-CircleProgrammableWalletSDK_Example";
+			sourceTree = "<group>";
+		};
+		B0B2B1BEAD3F90F7208CCBC33EDE5037 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB63CECF28F0921C5459C74094FB2A /* Pods-CircleProgrammableWalletSDK_Example */,
+				C4A44ABE218210BFFD62516A08827159 /* Pods-CircleProgrammableWalletSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCD897040A1449915A93263C08C58142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9C26D618CD49810C8A5CC5D877B5A4 /* CircleProgrammableWalletSDK */,
+				4A6E298FF7B90A73815538AEEA65A1C4 /* Pods-CircleProgrammableWalletSDK_Example */,
+				3860B090B3FBD74A7D7D67D107556D9A /* Pods-CircleProgrammableWalletSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A44ABE218210BFFD62516A08827159 /* Pods-CircleProgrammableWalletSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				068B4525969F254399B776FE09473D70 /* Pods-CircleProgrammableWalletSDK_Tests.modulemap */,
+				684EC34FA08558EC79A9F9826EAA259F /* Pods-CircleProgrammableWalletSDK_Tests-acknowledgements.markdown */,
+				571EF0C72248B18105F388245C5FB341 /* Pods-CircleProgrammableWalletSDK_Tests-acknowledgements.plist */,
+				97C8E0FE53673A76085D02142F59E38D /* Pods-CircleProgrammableWalletSDK_Tests-dummy.m */,
+				68A5B567442219AFEA9093452B2317B5 /* Pods-CircleProgrammableWalletSDK_Tests-Info.plist */,
+				F958BB8317E33FDFC263F8B91036B241 /* Pods-CircleProgrammableWalletSDK_Tests-umbrella.h */,
+				7D9A48FCB429C7DE1546E8FB77527262 /* Pods-CircleProgrammableWalletSDK_Tests.debug.xcconfig */,
+				A69EC995DC86FDB55B629FE95DA8480F /* Pods-CircleProgrammableWalletSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-CircleProgrammableWalletSDK_Tests";
+			path = "Target Support Files/Pods-CircleProgrammableWalletSDK_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				72DA1B23D9D2FBD08D3DAFF172CE0E5C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BCD897040A1449915A93263C08C58142 /* Products */,
+				B0B2B1BEAD3F90F7208CCBC33EDE5037 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEFFAD0254F766ECB8F3AA0504AAEAA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BC87F9260CC070B97660840F3C3F4A5F /* CircleProgrammableWalletSDK.podspec */,
+				975DC3DE08E0B03096F6556BCA1C1A21 /* LICENSE */,
+				0C54384B28B5CC30A734605F71B5AF96 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24910C82BB952E26A1991E20DD58C3FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FFD6CC997F40BA13E958A0CB8B266B /* Pods-CircleProgrammableWalletSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A894017BF0C83973DE73FFE3A2752964 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446A9B7C86B3B6D17FDCA5795D443956 /* CircleProgrammableWalletSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F419A49C097CFCAB1D22517A9C05AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6B6A3FF8B5BD8E3E853C2DB65D6A4 /* Pods-CircleProgrammableWalletSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B53353274A3ACA6C67EFAE2DEAD1903 /* CircleProgrammableWalletSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1553E2DF019160DAF0BC3C7FA561F8C /* Build configuration list for PBXNativeTarget "CircleProgrammableWalletSDK" */;
+			buildPhases = (
+				A894017BF0C83973DE73FFE3A2752964 /* Headers */,
+				A288DC6CCC6D765BD824B2FE0E7DF5C8 /* Sources */,
+				F646DDDB2A3DCB65E182FD788B64366C /* Frameworks */,
+				CD1C60B92F1D63EB450C772574F4DE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgrammableWalletSDK;
+			productName = CircleProgrammableWalletSDK;
+			productReference = 9A9C26D618CD49810C8A5CC5D877B5A4 /* CircleProgrammableWalletSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD06BE082F9B592CE52CC5F59BDEAA9C /* Pods-CircleProgrammableWalletSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CACD9D5862C479C94AA02AB3EAD5F56 /* Build configuration list for PBXNativeTarget "Pods-CircleProgrammableWalletSDK_Example" */;
+			buildPhases = (
+				24910C82BB952E26A1991E20DD58C3FA /* Headers */,
+				DD17EC128B8B916D037812CF074E6EA7 /* Sources */,
+				1901B0312B12D26D8BCE638D027D5FC9 /* Frameworks */,
+				21557EB8B1B6C793E6A93C467B71709B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC00FEF33F821AFE07BACC65BE7AF2E /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleProgrammableWalletSDK_Example";
+			productName = Pods_CircleProgrammableWalletSDK_Example;
+			productReference = 4A6E298FF7B90A73815538AEEA65A1C4 /* Pods-CircleProgrammableWalletSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC1C97319BC325599F389A7EEBD9AF38 /* Pods-CircleProgrammableWalletSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FF2EF206502EDB5FAF6B493F4B28BC /* Build configuration list for PBXNativeTarget "Pods-CircleProgrammableWalletSDK_Tests" */;
+			buildPhases = (
+				B2F419A49C097CFCAB1D22517A9C05AC /* Headers */,
+				EABF6C2FD3736B184A810A85F9F5F1BD /* Sources */,
+				834B19BCA07327EF7116866045A6C399 /* Frameworks */,
+				A23FA6201645F753F74A221EE3268182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699F2FBF432590210C03FE060DE49A41 /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleProgrammableWalletSDK_Tests";
+			productName = Pods_CircleProgrammableWalletSDK_Tests;
+			productReference = 3860B090B3FBD74A7D7D67D107556D9A /* Pods-CircleProgrammableWalletSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BCD897040A1449915A93263C08C58142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B53353274A3ACA6C67EFAE2DEAD1903 /* CircleProgrammableWalletSDK */,
+				CD06BE082F9B592CE52CC5F59BDEAA9C /* Pods-CircleProgrammableWalletSDK_Example */,
+				FC1C97319BC325599F389A7EEBD9AF38 /* Pods-CircleProgrammableWalletSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21557EB8B1B6C793E6A93C467B71709B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23FA6201645F753F74A221EE3268182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C60B92F1D63EB450C772574F4DE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A288DC6CCC6D765BD824B2FE0E7DF5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C2AF72D7239BBA184FAD4BF936EFD1 /* CircleProgrammableWalletSDK-dummy.m in Sources */,
+				AA959D4F5CB37B7698BF55A64237DF48 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD17EC128B8B916D037812CF074E6EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAA27B9C396F4CF791648EFFAA88B92 /* Pods-CircleProgrammableWalletSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABF6C2FD3736B184A810A85F9F5F1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE4E6C933EF2B2316AB0C258092261 /* Pods-CircleProgrammableWalletSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699F2FBF432590210C03FE060DE49A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CircleProgrammableWalletSDK_Example";
+			target = CD06BE082F9B592CE52CC5F59BDEAA9C /* Pods-CircleProgrammableWalletSDK_Example */;
+			targetProxy = 3F8513C8E88BADE26B99089C6F1BA552 /* PBXContainerItemProxy */;
+		};
+		9EC00FEF33F821AFE07BACC65BE7AF2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgrammableWalletSDK;
+			target = 7B53353274A3ACA6C67EFAE2DEAD1903 /* CircleProgrammableWalletSDK */;
+			targetProxy = C16B12EC0EBC9F667D644C254066C85E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F66B9863829BB7F09B6DB89DE75716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CCEAE9226852983F06DA6ABD96898B /* CircleProgrammableWalletSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgrammableWalletSDK/CircleProgrammableWalletSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgrammableWalletSDK/CircleProgrammableWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgrammableWalletSDK/CircleProgrammableWalletSDK.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgrammableWalletSDK;
+				PRODUCT_NAME = CircleProgrammableWalletSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4059718D457D8FB15561499642D0C81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503BF9E61E8D358563C1C849FC3FDD44 /* Pods-CircleProgrammableWalletSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Example/Pods-CircleProgrammableWalletSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Example/Pods-CircleProgrammableWalletSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA50E886AFED7CA6CD7874719292B6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629790C6756DCAE4BC10C14E3363BA56 /* Pods-CircleProgrammableWalletSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Example/Pods-CircleProgrammableWalletSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Example/Pods-CircleProgrammableWalletSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0BDEFD4F8E171FB94F35A1A802ED546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69EC995DC86FDB55B629FE95DA8480F /* Pods-CircleProgrammableWalletSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Tests/Pods-CircleProgrammableWalletSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Tests/Pods-CircleProgrammableWalletSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C15C833ADC35748EF6A9E3DC4F12EF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD53B9A47497BEC8FDA1E37CA2A300A /* CircleProgrammableWalletSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgrammableWalletSDK/CircleProgrammableWalletSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgrammableWalletSDK/CircleProgrammableWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgrammableWalletSDK/CircleProgrammableWalletSDK.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgrammableWalletSDK;
+				PRODUCT_NAME = CircleProgrammableWalletSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C27893D07B51508A99F75B55E471B1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9A48FCB429C7DE1546E8FB77527262 /* Pods-CircleProgrammableWalletSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Tests/Pods-CircleProgrammableWalletSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleProgrammableWalletSDK_Tests/Pods-CircleProgrammableWalletSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CACD9D5862C479C94AA02AB3EAD5F56 /* Build configuration list for PBXNativeTarget "Pods-CircleProgrammableWalletSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA50E886AFED7CA6CD7874719292B6CB /* Debug */,
+				4059718D457D8FB15561499642D0C81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1553E2DF019160DAF0BC3C7FA561F8C /* Build configuration list for PBXNativeTarget "CircleProgrammableWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F66B9863829BB7F09B6DB89DE75716B /* Debug */,
+				C15C833ADC35748EF6A9E3DC4F12EF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FF2EF206502EDB5FAF6B493F4B28BC /* Build configuration list for PBXNativeTarget "Pods-CircleProgrammableWalletSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27893D07B51508A99F75B55E471B1C9 /* Debug */,
+				C0BDEFD4F8E171FB94F35A1A802ED546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
